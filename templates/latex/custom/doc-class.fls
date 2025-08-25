@@ -1,0 +1,6 @@
+PWD /home/jenswaaben/phd/papers/contraceptives_pandoc/templates/latex/custom
+INPUT /usr/local/texlive/2025/texmf.cnf
+INPUT /usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT /home/jenswaaben/phd/papers/contraceptives_pandoc/templates/latex/custom/doc-class.tex
+OUTPUT doc-class.log

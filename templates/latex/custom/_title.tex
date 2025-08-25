@@ -1,0 +1,44 @@
+
+$if(title)$
+\title{$title$$if(thanks)$\thanks{$thanks$}$endif$}
+$endif$
+$if(subtitle)$
+$if(beamer)$
+$else$
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+$endif$
+\subtitle{$subtitle$}
+$endif$
+\author{$by-author:_authors.tex()[, ]$}
+\newcommand{\affiliation}{$by-affiliations:_affiliations.tex()$}
+\date{$date$}
+$if(beamer)$
+$if(institute)$
+\institute{$for(institute)$$institute$$sep$ \and $endfor$}
+$endif$
+$if(titlegraphic)$
+\titlegraphic{\includegraphics{$titlegraphic$}}
+$endif$
+$if(logo)$
+\logo{\includegraphics{$logo$}}
+$endif$
+$endif$
+
+\makeatletter
+\renewcommand{\maketitle}{%
+  %\raggedright % Force left alignment  
+  \raggedright
+  {\LARGE\bfseries\sffamily \@title \par} % Main title
+  $if(subtitle)$
+  {\large \sffamily \@subtitle \par} % Subtitle if exists
+  $endif$
+  {\large \sffamily \@author \par} % Authors
+  {\affiliation}
+  \vspace{0.5cm}
+}
+\makeatother

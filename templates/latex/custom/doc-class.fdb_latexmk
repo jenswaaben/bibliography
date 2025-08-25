@@ -1,0 +1,13 @@
+# Fdb version 4
+["pdflatex"] 1755082584.02577 "/home/jenswaaben/phd/papers/contraceptives_pandoc/templates/latex/custom/doc-class.tex" "doc-class.pdf" "doc-class" 1755082584.20493 2
+  "/home/jenswaaben/phd/papers/contraceptives_pandoc/templates/latex/custom/doc-class.tex" 1755082583.41097 296 a5d2f3f271c3ac73d81991d403899cba ""
+  "/usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf" 1739380943 42148 61becc7c670cd061bb319c643c27fdd4 ""
+  "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1745935496 3567314 839139fdd7a78cdefa7a181979bbda18 ""
+  "/usr/local/texlive/2025/texmf.cnf" 1745935335.65967 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
+  "doc-class.aux" 1755082584.02089 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "doc-class.tex" 1755082583.41097 296 a5d2f3f271c3ac73d81991d403899cba ""
+  (generated)
+  "doc-class.aux"
+  "doc-class.log"
+  "doc-class.pdf"
+  (rewritten before read)
